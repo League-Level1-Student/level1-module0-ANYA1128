@@ -22,9 +22,9 @@ public class PhotoQuiz {
                 quizWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   // This will make sure the program exits when you close the window
 
 		// 1. find an image on the internet, and put its URL in a String variable (from your browser, right click on the image, and select “Copy Image Address”)
-
+String heh = "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJ-7Xhuc3dAhXq5YMKHQZ6DvoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.ebay.com%2Fitm%2FButton-Agents-of-S-H-I-E-L-D-SHIELD-Logo-Agent-Coulson-Marvel-Captain-America-%2F272104492552&psig=AOvVaw3OtgajhCg5oupoWfjMypj1&ust=1537665833893525";
 		// 2. create a variable of type "Component" that will hold your image
-
+Component image = 
 		// 3. use the "createImage()" method below to initialize your Component
 
 		// 4. add the image to the quiz window
