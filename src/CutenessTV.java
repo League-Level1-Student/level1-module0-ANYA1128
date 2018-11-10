@@ -7,18 +7,20 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class CutenessTV implements ActionListener {
-public static void main(String[] args) {
+	JButton heh = new JButton("UNICORNS");
+	JButton wow = new JButton("DUCKIES");
+	JButton wowza = new JButton("POOPIES");
+	public static void main(String[] args) {
 	CutenessTV fc = new CutenessTV();
 	fc.showButton();
+	
 	
 }
 private void showButton() {
     JFrame jeff = new JFrame();
     JPanel pan = new JPanel();
 	jeff.setVisible(true);
-	JButton heh = new JButton();
-	JButton wow = new JButton();
-	JButton wowza = new JButton();
+	
 	pan.add(heh);
 	pan.add(wow);
 	pan.add(wowza);
@@ -52,7 +54,17 @@ void playVideo(String videoID) {
 }
 @Override
 public void actionPerformed(ActionEvent e) {
+	JButton buttonClicked = (JButton) e.getSource(); 
 	// TODO Auto-generated method stub
-	
+	if (buttonClicked == heh) {
+		showFluffyUnicorns();
+	}
+	if (buttonClicked == wow) {
+		showDucks();
+	}
+	if (buttonClicked == wowza) {
+		showPoopies();
+
+	}
 }
 }
